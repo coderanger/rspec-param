@@ -75,7 +75,7 @@ context rather than overriding the value:
 
 ```ruby
 define MyThing do
-  param(:some_value)
+  param(:some_value, accumulate: true)
   context 'inner' do
     some_value 1
     it { expect(some_value).to eq [1] }
