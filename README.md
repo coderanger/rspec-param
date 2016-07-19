@@ -64,7 +64,7 @@ define MyThing do
 end
 ```
 
-Anywhere inside an example or RPpec helper that you would use a `let` variable,
+Anywhere inside an example or RSpec helper that you would use a `let` variable,
 you can use a param instead.
 
 ## Accumulators
