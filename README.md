@@ -87,6 +87,10 @@ define MyThing do
 end
 ```
 
+## Sponsors
+
+Development sponsored by [Bloomberg](http://www.bloomberg.com/company/technology/).
+
 ## License
 
 Copyright 2016, Noah Kantrowitz
