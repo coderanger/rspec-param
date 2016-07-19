@@ -13,6 +13,7 @@ An RSpec helper module for writing parameterized tests with less boilerplate.
 Add the following to your `spec_helper.rb`:
 
 ```ruby
+require 'rspec-param'
 RSpec.configure do |config|
   config.include RSpecParam
 end
