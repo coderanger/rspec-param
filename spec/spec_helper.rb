@@ -24,7 +24,7 @@ if ENV['CODECLIMATE_REPO_TOKEN']
   formatters << CodeClimate::TestReporter::Formatter
 end
 
-if ENV['CODECOV_TOKEN']
+if ENV['CODECOV_TOKEN'] || ENV['CI']
   require 'codecov'
   formatters << SimpleCov::Formatter::Codecov
 end
