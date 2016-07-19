@@ -17,5 +17,5 @@
 
 module RSpecParam
   # rspec-param gem version.
-  VERSION = '1.0.0.pre'
+  VERSION = '0.1'
 end
