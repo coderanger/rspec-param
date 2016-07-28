@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+require 'rspec/core/memoized_helpers'
+
 
 # An RSpec helper module for writing parameterized tests with less boilerplate.
 #
@@ -56,6 +58,8 @@ module RSpecParam
 
     def included(klass)
       super
+      klass.extend RSpec::Core::MemoizedHelpers::ClassMethods
+      klass.include RSpec::Core::MemoizedHelpers
       klass.extend ClassMethods
     end
   end
